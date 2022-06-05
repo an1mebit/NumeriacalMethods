@@ -1,4 +1,3 @@
-from unittest import result
 import numpy as np
 
 x_Row=np.array([...], dtype=float)
@@ -51,5 +50,5 @@ def newton(corner_Row, x_Row, x):
     return result
 
 x=0.5
-
+#Пример вывода
 print(newton(get_corner(table(x_Row,y_Row)),x_Row,x))
