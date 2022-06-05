@@ -1,8 +1,10 @@
 import numpy as np
 
+#Заполняем массивы значениями из таблица
 x_Row=np.array([...], dtype=float)
 y_Row=np.array([...], dtype=float)
 
+#Функция, которая строит многочлен Лагранжа и затем подставляет значение x в неё, на выводе даёт значение функции
 def Lagranz(x_Row, y_Row, x):
     z=0
     for j in range(len(y_Row)):
